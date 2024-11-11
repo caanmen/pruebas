@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Centro Cultural Popular Victor Jara</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="header-content">
+            <!-- Logo a la izquierda -->
+            <img src="images/logo.png" alt="Centro Cultural Popular Victor Jara Logo" class="logo-img left-logo">
+            
+            <!-- Título centrado -->
+            <h1>Centro Cultural Popular<br>Victor Jara</h1>
+            
+            <!-- Logo a la derecha -->
+            <img src="images/logo.png" alt="Centro Cultural Popular Victor Jara Logo" class="logo-img right-logo">
+        </div>
+        
+        <!-- Barra de navegación debajo del encabezado -->
+        <nav>
+            <ul>
+                <li><a href="#galeria">Galería</a></li>
+                <li><a href="#biblioteca">Biblioteca</a></li>
+                <li><a href="#educacion">Educación</a></li>
+                <li><a href="noticia.html">Noticia</a></li> <!-- Redirección a noticia.html -->
+                <li><a href="#foro">Foro</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Main Content -->
+    <main>
+        <section id="noticias" class="section">
+            <div id="newsContainer" class="news-container">
+                <div class="news-card">
+                    <div class="news-header">
+                        <h2>Noticias</h2>
+                    </div>
+                    <img src="images/news-image.png" alt="Imagen de noticia" class="news-image">
+                    <div class="news-content">
+                        <h3>¿Por qué hay crisis en las manifestaciones?</h3>
+                        <p>El pasado jueves 25 de julio la policía disparó contra estudiantes de la universidad Nacional que se encontraban manifestándose.</p>
+                        <button class="read-more-button">Leer más</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="novedades" class="section">
+            <div class="updates-header">
+                <h2 class="section-title">Novedades</h2>
+            </div>
+            <div class="updates-container">
+                <div class="update-card">
+                    <img src="images/novedad1.jpeg" alt="Tarde de Bingo Solidario" class="update-image">
+                </div>
+                <div class="update-card">
+                    <img src="images/novedad2.jpeg" alt="Pachanga Solidaria" class="update-image">
+                </div>
+                <div class="update-card">
+                    <img src="images/novedad3.jpeg" alt="Gran Reinauguración" class="update-image">
+                </div>
+            </div>
+        </section>
+
+        <section id="calendario" class="section">
+            <div id="eventsContainer" class="calendar-content">
+                <img src="images/calendar-icon.png" alt="Icono de Calendario" class="calendar-image">
+                <div class="events-list">
+                    <h3>Próximos eventos:</h3>
+                    <ul>
+                        <li><strong>1 de noviembre, 10:00 AM:</strong> Celebración de disfraces en el Centro Cultural</li>
+                        <li><strong>9 de noviembre, 11:00 PM:</strong> Taller de defensa personal en el Centro Cultural</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>Centro Cultural Popular Victor Jara</p>
+        <p>Construyendo educación popular - Usme-2024</p>
+    </footer>
+
+    <script src="scripts/main.js"></script>
+</body>
+</html>
